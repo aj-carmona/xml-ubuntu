@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "simulacroesxamen1.dtd" >
+
+<productos>
+    <producto id="ordenador">
+        <nombre>Toshiba Dynabook</nombre>
+        <marca>Toshiba</marca>
+        <categoria>Laptops</categoria>
+        <precio>500€</precio>
+        <stock>200 unidades</stock>
+        <especificaciones>
+            <procesador>Intel® Core™ i5-1240P de 12ª generación </procesador>
+            <memoria>512 GB SSD PCIe</memoria>
+            <ram>8 GB </ram>
+            <pantalla>14,0 " Full HD Pantalla táctil On-Cell e IPS</pantalla>
+        </especificaciones>
+        <opiniones>
+            <opinion>Muy buen portatil para trabajar y poder almacenar nuestros datos e informacion.</opinion>
+            <opinion>Buen portatil para hacer trabajos de programación</opinion>
+        </opiniones>
+    </producto>
+
+    <producto id="telefono">
+        <nombre>iPhone 15</nombre>
+        <marca>Apple</marca>
+        <categoria>Smartphones</categoria>
+        <precio>1500€</precio>
+        <stock>400 unidades</stock>
+        <especificaciones>
+            <capacidad>256 GB</capacidad>
+            <peso>201 g</peso>
+            <camara>48 Mpx</camara>
+            <pantalla>6,7 pulgadas</pantalla>
+        </especificaciones>
+        <opiniones>
+            <opinion>Muy caro para lo que te aporta</opinion>
+            <opinion>Muy buena camara y acabado del telefono</opinion>
+        </opiniones>
+    </producto>
+
+    <producto id="televisor">
+        <nombre>TV LG OLED evo</nombre>
+        <marca>LG</marca>
+        <categoria>Televisores</categoria>
+        <precio>900€</precio>
+        <stock>600 unidades</stock>
+        <especificaciones>
+           <pantalla> 4K OLED</pantalla>
+           <refresco>100Hz Nativo</refresco>
+           <procesador>Procesador con IA 4K Gen6</procesador>
+        </especificaciones>
+        <opiniones>
+            <opinion>Magnifico televisor con muy buen audio y con muchas aplicaciones gratis</opinion>
+            <opinion>Televisor muy bueno para ver peliculas</opinion>
+        </opiniones>
+    </producto>
+
+</productos>

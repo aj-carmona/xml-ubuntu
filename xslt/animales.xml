@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animales>
+    <animal>
+        <nombre>Leon</nombre>
+        <especie>Mamifero</especie>
+        <habitat>Selva Africa</habitat>
+       
+    </animal>
+    <animal>
+        <nombre>Serpiente</nombre>
+        <especie>Reptil</especie>
+        <habitat>Desierto</habitat>
+        
+    </animal>
+
+    <animal>
+        <nombre>Loro</nombre>
+        <especie>Ave</especie>
+        <habitat>Parques naturakes</habitat>
+        
+    </animal>
+    <animal>
+        <nombre>Aguila</nombre>
+        <especie>Ave</especie>
+        <habitat>Montaña</habitat>
+        
+    </animal>
+    <animal>
+        <nombre>Cabra</nombre>
+        <especie>Mamifero</especie>
+        <habitat>Campo</habitat>
+        
+    </animal>
+    <!-- Agrega más libros si lo deseas -->
+</animales>

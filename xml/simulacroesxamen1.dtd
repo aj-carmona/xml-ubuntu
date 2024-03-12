@@ -1,0 +1,23 @@
+<!ELEMENT productos (producto+)>
+
+<!ELEMENT producto (nombre, marca, categoria, precio, stock, especificaciones, opiniones)>
+<!ATTLIST producto id  ID #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+
+<!ELEMENT especificaciones (procesador, memoria, ram, pantalla, capacidad, peso, camara, refresco)>
+<!ELEMENT procesador (#PCDATA)>
+<!ELEMENT memoria (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT pantalla (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT camara (#PCDATA)>
+<!ELEMENT refresco (#PCDATA)>
+
+<!ELEMENT opiniones (opinion+)>
+<!ELEMENT opinion (#PCDATA)>

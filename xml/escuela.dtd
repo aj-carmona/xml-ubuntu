@@ -1,0 +1,37 @@
+<!ELEMENT escuela (curso+)>
+<!ELEMENT curso (nombre, duracion, descripcion, (beca | nobeca), aula, precios, semanas, profesores, temas+)>
+<!ATTLIST curso identificacion CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT beca EMPTY>
+    <!ELEMENT nobeca EMPTY>
+    <!ELEMENT aula (planta, numaula)>
+    <!ATTLIST aula informatica (si | no ) CDATA #REQUIRED>
+<!ELEMENT planta (#PCDATA)>
+<!ELEMENT numaula (#PCDATA)>
+<!ELEMENT precios (ant_alumno, nuevoalumno )>
+<!ELEMENT ant_alumno (#PCDATA)>
+<!ELEMENT nuevoalumno (#PCDATA)>
+<!ELEMENT semanas (fechainicial)>
+<!ATTLIST semanas horarios (mañana |tarde) #REQUIRED>
+<!ELEMENT fechainicial (dia, mes, año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT preofesores (profesor+, profesor+)>
+<!ELEMENT profesor (nombre, apellidos)>
+<!ATTLIST profesor tipo (teoria | practica) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT temas (tema+)>
+<!ELEMENT tema (titulo, resumen, palabrasclave, ejercicio)>
+<!ATTLIST tema identificador CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT palabraclave (#PCDATA)>
+<!ELEMENT ejercicios (practicos, teoricos)>
+<!ELEMENT practicos (num_ejercicio, duracion)>
+<!ELEMENT teoricos (num_preguntas, duracion)>
+<!ELEMENT num_ejercicios (#PCDATA)>
+<!ELEMENT num_preguntas (#PCDATA)>

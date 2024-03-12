@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE escuela SYSTEM "escuela.dtd">
+
+
+<escuela>
+
+    <curso identificacion="01">
+        <nombre>LM</nombre>
+        <duracion>10 horas</duracion>
+        <descripcion>HTML y CSS</descripcion>
+        <beca/>
+        <aula informatica="si">
+            <planta>2</planta>
+            <numaula>9C</numaula>
+        </aula>
+        <precios>
+            <ant_alumno>500</ant_alumno>
+            <nuevoalumno>800</nuevoalumno>
+        </precios>
+        <semanas horarios="mañana">
+            <fechainicial>
+                <dia>1</dia>
+                <mes>5</mes>
+                <año>2024</año>
+            </fechainicial>
+        </semanas>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Jesus</nombre>
+                <apellidos>Alvarez</apellidos>
+            </profesor>
+            <profesor tipo="practica">
+                <nombre>Maria</nombre>
+                <apellidos>Garcia</apellidos>
+            </profesor>
+        </profesores>
+        <temas id="1">
+            <titulo>HTML</titulo>
+            <resumen>Etiquetas, enlaces, tablas, listas, etc</resumen>
+            <palabraclave>web</palabraclave>
+            <ejercicios>
+                <practicos>
+                    <num_ejercicio>5</num_ejercicio>
+                    <duracion>2 horas</duracion>
+                </practicos>
+                <teoricos>
+                    <num_preguntas>3</num_preguntas>
+                    <duracion>2.5 horas</duracion>
+                </teoricos>
+            </ejercicios>
+        </temas>
+    </curso>
+
+    <curso identificacion="02">
+        <nombre>FOL</nombre>
+        <duracion>8 horas</duracion>
+        <descripcion>Formacion laboral para tu futuro</descripcion>
+        <nobeca/>
+        <aula informatica="si">
+            <planta>2</planta>
+            <numaula>9C</numaula>
+        </aula>
+        <precios>
+            <ant_alumno>300</ant_alumno>
+            <nuevoalumno>500</nuevoalumno>
+        </precios>
+        <semanas horarios="mañana">
+            <fechainicial>
+                <dia>4</dia>
+                <mes>8</mes>
+                <año>2024</año>
+            </fechainicial>
+        </semanas>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Rafael</nombre>
+                <apellidos>Gomez</apellidos>
+            </profesor>
+            <profesor tipo="practica">
+                <nombre>Antonio</nombre>
+                <apellidos>Martinez</apellidos>
+            </profesor>
+        </profesores>
+        <temas id="1">
+            <titulo>FOL</titulo>
+            <resumen>Curriculum, derechos de trabajadore, trabajo en equipo, etc</resumen>
+            <palabraclave>Trabajar</palabraclave>
+            <ejercicios>
+                <practicos>
+                    <num_ejercicio>4</num_ejercicio>
+                    <duracion>1.5 horas</duracion>
+                </practicos>
+                <teoricos>
+                    <num_preguntas>3</num_preguntas>
+                    <duracion>2 horas</duracion>
+                </teoricos>
+            </ejercicios>
+        </temas>
+    </curso>
+
+    <curso identificacion="03">
+        <nombre>Base de datos</nombre>
+        <duracion>9 horas</duracion>
+        <descripcion>MySQL, Workbench</descripcion>
+        <beca/>
+        <aula informatica="si">
+            <planta>2</planta>
+            <numaula>9C</numaula>
+        </aula>
+        <precios>
+            <ant_alumno>600</ant_alumno>
+            <nuevoalumno>900</nuevoalumno>
+        </precios>
+        <semanas horarios="mañana">
+            <fechainicial>
+                <dia>25</dia>
+                <mes>9</mes>
+                <año>2024</año>
+            </fechainicial>
+        </semanas>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Daniel</nombre>
+                <apellidos>Jimenez</apellidos>
+            </profesor>
+            <profesor tipo="practica">
+                <nombre>Ruben</nombre>
+                <apellidos>Fernandez</apellidos>
+            </profesor>
+        </profesores>
+        <temas id="1">
+            <titulo>Base de Datos</titulo>
+            <resumen>Tablas, modelo relacional, ERD, etc</resumen>
+            <palabraclave>Tabla</palabraclave>
+            <ejercicios>
+                <practicos>
+                    <num_ejercicio>6</num_ejercicio>
+                    <duracion>5 horas</duracion>
+                </practicos>
+                <teoricos>
+                    <num_preguntas>4</num_preguntas>
+                    <duracion>3 horas</duracion>
+                </teoricos>
+            </ejercicios>
+        </temas>
+    </curso>
+
+</escuela>

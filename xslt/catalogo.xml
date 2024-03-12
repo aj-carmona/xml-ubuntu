@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animes SYSTEM "catalogo.dtd">
+
+<animes>
+    <anime>
+        <titulo>One Piece</titulo>
+        <estudio>Wit Studio</estudio>
+        <genero>Accion</genero>
+        <ano>1999</ano>
+    </anime>
+        
+    <anime>
+        <titulo>Shingeki no Kyojin</titulo>
+        <estudio>Wit Studio</estudio>
+        <genero>Fantasia oscura</genero>
+        <ano>2011</ano>
+    </anime>
+
+    <anime>
+        <titulo>Naruto</titulo>
+        <estudio>Artes Marciales</estudio>
+        <genero>Pierrot</genero>
+        <ano>1979</ano>
+    </anime>
+</animes>

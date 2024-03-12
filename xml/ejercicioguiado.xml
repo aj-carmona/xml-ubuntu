@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ejercicioguiado SYSTEM "supermercado.dtd">
+
+<supermercado>
+
+    <seccion nombre="Frutas y verduras">
+        
+        <producto>
+            <nombre>Manzanas</nombre>
+            <precio>2.5</precio>
+            <unidad> kg </unidad>
+        </producto>
+
+        <producto>
+            <nombre>Tomate</nombre>
+            <precio>1.8</precio>
+            <unidad> kg </unidad>
+        </producto>
+
+        <producto>
+            <nombre>Platanos</nombre>
+            <precio>2.0</precio>
+            <unidad> kg </unidad>
+        </producto>
+
+        <seccion nombre="Panaderia">
+            <nombre>Pan integral</nombre>
+            <precio>3.25</precio>
+            <unidad> kg </unidad>
+
+            <nombre>Surtido de bolleria</nombre>
+            <precio>2.0</precio>
+            <unidad> kg </unidad>
+
+            <nombre>Platanos</nombre>
+            <precio>2.0</precio>
+            <unidad> kg </unidad>
+        </seccion>
+
+    </seccion>
+
+</supermercado>

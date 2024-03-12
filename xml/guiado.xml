@@ -1,0 +1,43 @@
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT  libro (titulo, autor, añoPublicacion, genero, descripcion, ubicacion, disponibilidad?)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT añoPublicacion (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT ubicacion (#PCDATA)>
+    <!ELEMENT disponibilidad (#PCDATA)>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bilbioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>JRR Tolkien</autor>
+        <añoPublicacion>1967</añoPublicacion>
+        <genero>Fantasia</genero>
+        </descripcion>
+        <ubicacion></ubicacion>
+        <disponibilidad>
+    </libro>
+
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>JRR Tolkien</autor>
+        <añoPublicacion>1967</añoPublicacion>
+        <genero>Fantasia</genero>
+        </descripcion>
+        <ubicacion></ubicacion>
+        <disponibilidad>
+    </libro>
+
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>JRR Tolkien</autor>
+        <añoPublicacion>1967</añoPublicacion>
+        <genero>Fantasia</genero>
+        </descripcion>
+        <ubicacion></ubicacion>
+        <disponibilidad>
+    </libro>
+</biblioteca>

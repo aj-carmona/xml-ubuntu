@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gimnasio SYSTEM "gimnasio.dtd">
+
+<gimnasio>
+    <miembro id="1">
+        <nombre>Manolo</nombre>
+        <listaclases>
+            <clases>Yoga</clases>
+            <clases>Spining</clases>
+            <clases>Body Combat</clases>
+        </listaclases>
+    </miembro>
+    <miembro id="2">
+        <nombre>Paco</nombre>
+        <listaclases>
+            <clases>Zumba</clases>
+            <clases>Aerobic</clases>
+            <clases>Yoga</clases>
+        </listaclases>
+    </miembro>
+    <miembro id="3">
+        <nombre>Maria</nombre>
+        <listaclases>
+            <clases>Body Combat</clases>
+            <clases>Spining</clases>
+            <clases>Zumbac</clases>
+        </listaclases>
+    </miembro>
+</gimnasio>

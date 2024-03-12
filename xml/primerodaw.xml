@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE primerodaw SYSTEM "primerodaw.dtd"> 
+
+<daw>
+    <asignatura>
+        <nombre>Programacion</nombre>
+        <profesor>Ruben</profesor>
+        <horassemana>8 horas/semana</horassemana>
+        <numalumnos>20 alumnos</numalumnos>
+    </asignatura>
+
+    <asignatura>
+        <nombre>Lenguaje de marcas</nombre>
+        <profesor>Carlos</profesor>
+        <horassemana>4 horas/semana</horassemana>
+        <numalumnos>15 alumnos</numalumnos>
+    </asignatura>
+
+    <asignatura>
+        <nombre>Sistemas informaticos</nombre>
+        <profesor>Juanjo</profesor>
+        <horassemana>6 horas/semana</horassemana>
+        <numalumnos>15 alumnos</numalumnos>
+    </asignatura>
+
+    <asignatura>
+        <nombre>Base de Datos</nombre>
+        <profesor>Daniel</profesor>
+        <horassemana>6 horas/semana</horassemana>
+        <numalumnos>16 alumnos</numalumnos>
+    </asignatura>
+
+    <asignatura>
+        <nombre>FOL</nombre>
+        <profesor>Eloy</profesor>
+        <horassemana>3 horas/semana</horassemana>
+        <numalumnos>11 alumnos</numalumnos>
+    </asignatura>
+
+    <asignatura>
+        <nombre>Entorno Desarrollo</nombre>
+        <profesor>Jorge</profesor>
+        <horassemana>3 horas/semana</horassemana>
+        <numalumnos>15 alumnos</numalumnos>
+    </asignatura>
+
+</daw>

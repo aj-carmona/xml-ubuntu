@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "simulacroexamen2.dtd">
+
+<biblioteca>
+    <libro identificador="1">
+
+        <titulo>Madre Tierra, Padre Cielo</titulo>
+        <autores>
+            <autor>Sue Harrison</autor>
+        </autores>
+        <generos>
+            <genero>Novela Historica</genero>
+        </generos>
+        <publicacion>1999</publicacion>
+        <claves>
+            <clave>Pueblo</clave>
+            <clave>Tierra</clave>
+            <clave>Familia</clave>
+        </claves>
+        <disponibilidad prestamo="no"></disponibilidad>
+
+    </libro>
+
+    <libro identificador="2">
+
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autores>
+            <autor>J.K. Rowling</autor>
+        </autores>
+        <generos>
+            <genero>Fantasia</genero>
+        </generos>
+        <publicacion>1997</publicacion>
+        <claves>
+            <clave>Muggle</clave>
+            <clave>Galleon</clave>
+            <clave>Sickle</clave>
+        </claves>
+        <disponibilidad prestamo="si"></disponibilidad>
+
+    </libro>
+
+    <libro identificador="3">
+
+        <titulo>La paciencia silenciosa</titulo>
+        <autores>
+            <autor>Alex Michaelides</autor>
+        </autores>
+        <generos>
+            <genero>Misterio</genero>
+        </generos>
+        <publicacion>2019</publicacion>
+        <claves>
+            <clave>oscuridad</clave>
+            <clave>casa</clave>
+            <clave>tiempo</clave>
+        </claves>
+        <disponibilidad prestamo="no"></disponibilidad>
+
+    </libro>
+</biblioteca>

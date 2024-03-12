@@ -1,0 +1,16 @@
+Consulta para obtener todos los nombres de eventos.
+doc("eventosculturales.xml")//evento
+
+Consulta para obtener eventos por tipo (por ejemplo, conciertos).
+doc("eventosculturales.xml")[tipo="Musica"]/evento
+
+Consulta para obtener eventos por fecha.
+
+
+Consulta para listar todas las ubicaciones únicas de eventos.
+distinct-values(doc("eventosculturales.xml")//evento/ubicacion)
+
+Consulta para obtener eventos ordenados por fecha, de más cercanos a
+más lejanos.
+for $i in doc("eventosculturales.xml") //nombre
+order by count ($i /fecha ascending)

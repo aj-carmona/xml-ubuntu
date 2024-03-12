@@ -1,0 +1,7 @@
+<!ELEMENT supermercado (seccion+)>
+<!ELEMENT seccion (producto+)>
+<!ATTLIST seccion nombre CDATA #REQUIRED>
+<!ELEMENT producto (nombre, precio, unidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>

@@ -1,0 +1,6 @@
+<!ELEMENT animes (anime+)>
+<!ELEMENT anime (titulo, estudio, genero, ano)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT estudio (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>

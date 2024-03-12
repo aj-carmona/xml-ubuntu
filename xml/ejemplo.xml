@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro identificador = "1">
+        <titulo>San Manuel Bueno, martir</titulo>
+        <autor>Miguel de Unamuno</autor>
+        <genero>Novela</genero>
+        <ano>1931</ano>
+    </libro>
+
+    <libro identificador = "2">
+        <titulo>La casa de Bernarda Alba</titulo>
+        <autor>Federico Garcia Lorca</autor>
+        <genero>Teatro</genero>
+        <ano>1945</ano>
+    </libro>
+
+    <libro identificador = "3">
+        <titulo>Platero y yo </titulo>
+        <autor>Juan Ramon Jimenez</autor>
+        <genero>Poesia</genero>
+        <ano>1914</ano>
+    </libro>
+</biblioteca>

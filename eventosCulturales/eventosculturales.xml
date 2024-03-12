@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eventosCulturales SYSTEM "eventosculturales.dtd">
+
+<eventosCulturales>
+    <evento id="1">
+        <nombre>El Rey Leon</nombre>
+        <tipo>Teatro Musical</tipo>
+        <ubicacion>Teatro Lope de Vega, Madrid</ubicacion>
+        <fecha>26 de mayo</fecha>
+        <hora>18:00 horas</hora>
+        <participantes>Actores</participantes>
+    </evento>
+
+    <evento id="2">
+        <nombre>Sol Maria Tour</nombre>
+        <tipo>Musica</tipo>
+        <ubicacion>Estadio La Cartuja, Sevilla</ubicacion>
+        <fecha>2 de junio</fecha>
+        <hora>21:00 horas</hora>
+        <participantes>Eladio Carrion</participantes>
+    </evento>
+
+    <evento id="3">
+        <nombre>Certamen Sta. Angela de la Cruz</nombre>
+        <tipo>Musica</tipo>
+        <ubicacion>Plaza de la Encarnacion, Sevilla</ubicacion>
+        <fecha>2 de marzo</fecha>
+        <hora>12:00 horas</hora>
+        <participantes>Agrupaciones Musicales y Bandas de Cornetas y Tambores</participantes>
+    </evento>
+
+    <evento id="4">
+        <nombre>Meeting Traders</nombre>
+        <tipo>Conferencia</tipo>
+        <ubicacion>Avenida de Velazquez, Malaga</ubicacion>
+        <fecha>24 de febrero</fecha>
+        <hora>16:00 horas</hora>
+        <participantes>Conferenciante</participantes>
+    </evento>
+
+    <evento id="5">
+        <nombre>El Misterio del Museo del Ferrocarril </nombre>
+        <tipo>Exposicion</tipo>
+        <ubicacion>Museo de las Delicias</ubicacion>
+        <fecha>24 de febrero</fecha>
+        <hora>21:30 horas</hora>
+        <participantes>Desconocidos</participantes>
+    </evento>
+</eventosCulturales>

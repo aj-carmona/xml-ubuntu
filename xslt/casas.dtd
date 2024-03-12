@@ -1,0 +1,29 @@
+<!ELEMENT casa (direccion, habitaciones, jardin)>
+
+<!ELEMENT direccion (calle, ciudad, provincia, pais)>
+<!ELEMENT calle (#PCDATA)>
+<!ATTLIST calle tipo CDATA #REQUIRED>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ATTLIST pais codigo CDATA #REQUIRED>
+
+<!ELEMENT habitaciones (habitacion+)>
+<!ELEMENT habitacion (nombre, dimensiones, muebles)>
+<!ATTLIST habitacion tipo CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dimensiones (#PCDATA)>
+<!ATTLIST dimensiones largo CDATA #REQUIRED>
+<!ATTLIST dimensiones ancho CDATA #REQUIRED>
+<!ATTLIST dimensiones altura CDATA #REQUIRED>
+<!ELEMENT muebles (mueble+)>
+<!ELEMENT mueble (#PCDATA)>
+<!ATTLIST mueble tipo CDATA #REQUIRED>
+<!ATTLIST mueble material CDATA #REQUIRED>
+
+<!ELEMENT jardin (tipos, dimensiones, elementos)>
+<!ELEMENT tipos (#PCDATA)>
+<!ELEMENT elementos (elemento+)>
+<!ELEMENT elemento (#PCDATA)>
+<!ATTLIST elemento tipo CDATA #REQUIRED>
+<!ATTLIST elemento forma CDATA #IMPLIER>

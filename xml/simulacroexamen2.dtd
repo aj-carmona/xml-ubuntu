@@ -1,0 +1,19 @@
+<!ELEMENT biblioteca (libro+)>
+
+<!ELEMENT libro (titulo, autores, generos, publicacion, claves, disponibilidad)>
+<!ATTLIST libro identificador ID #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (#PCDATA)>
+
+<!ELEMENT generos (genero+)>
+<!ELEMENT genero (#PCDATA)>
+
+<!ELEMENT publicacion (#PCDATA)>
+
+<!ELEMENT claves (clave+)>
+<!ELEMENT clave (#PCDATA)>
+
+<!ATTLIST disponibilidad prestamo ID #REQUIRED>

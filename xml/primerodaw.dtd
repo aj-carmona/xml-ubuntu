@@ -1,0 +1,8 @@
+<!DOCTYPE primerodaw [
+    <!ELEMENT daw (asigntura+)>
+    <!ELEMENT  asignatura (nombre, profesor, horassemana, numalumnos?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT profesor (#PCDATA)>
+    <!ELEMENT horassemana (#PCDATA)>
+    <!ELEMENT numalumnos (#PCDATA)>
+]>

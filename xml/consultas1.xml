@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cine>
+    <pelicula>
+        <titulo>El Padrino</titulo>
+        <director>Francis Ford Coppola</director>
+        <anio>1972</anio>
+        <actores>
+            <actor>
+                <nombre>Marlon Brando</nombre>
+                <personaje>Vito Corleone</personaje>
+            </actor>
+            <actor>
+                <nombre>Al Pacino</nombre>
+                <personaje>Michael Corleone</personaje>
+            </actor>
+            <actor>
+                <nombre>James Caan</nombre>
+                <personaje>Sonny Corleone</personaje>
+            </actor>
+        </actores>
+        <premios>
+            <premio>
+                <nombre>Oscar</nombre>
+                <categoria>Mejor Actor</categoria>
+                <ganador>Marlon Brando</ganador>
+            </premio>
+        </premios>
+    </pelicula>
+    <pelicula>
+        <titulo>Inception</titulo>
+        <director>Christopher Nolan</director>
+        <anio>2010</anio>
+        <actores>
+            <actor>
+                <nombre>Leonardo DiCaprio</nombre>
+                <personaje>Dominic Cobb</personaje>
+            </actor>
+            <actor>
+                <nombre>Ellen Page</nombre>
+                <personaje>Ariadne</personaje>
+            </actor>
+            <actor>
+                <nombre>Tom Hardy</nombre>
+
+                <personaje>Eames</personaje>
+            </actor>
+        </actores>
+        <premios>
+            <premio>
+                <nombre>Oscar</nombre>
+                <categoria>Mejor Fotografía</categoria>
+                <ganador>No</ganador>
+            </premio>
+        </premios>
+    </pelicula>
+    <pelicula>
+        <titulo>La La Land</titulo>
+        <director>Damien Chazelle</director>
+        <anio>2016</anio>
+        <actores>
+            <actor>
+                <nombre>Ryan Gosling</nombre>
+                <personaje>Sebastian</personaje>
+            </actor>
+            <actor>
+                <nombre>Emma Stone</nombre>
+                <personaje>Mia</personaje>
+            </actor>
+            <actor>
+                <nombre>John Legend</nombre>
+                <personaje>Keith</personaje>
+            </actor>
+        </actores>
+        <premios>
+            <premio>
+                <nombre>Oscar</nombre>
+                <categoria>Mejor Actriz</categoria>
+                <ganador>Emma Stone</ganador>
+            </premio>
+        </premios>
+    </pelicula>
+</cine>

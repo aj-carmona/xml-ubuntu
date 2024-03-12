@@ -1,0 +1,9 @@
+<!ELEMENT eventosCulturales (evento+)>
+<!ELEMENT evento (nombre, tipo, ubicacion, fecha, hora, participntes)>
+<!ATTLIST evento id ID #CDATA>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT participantes (#PCDATA)>
